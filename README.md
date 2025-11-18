@@ -15,3 +15,9 @@ I want to see if my CreditCard and my ShoppingCart won't break any logic when I 
   - Functions: begins with the prefix test_<> (like test_checkout())
 - Fixtures are the processes that are called to manage pre and post conditions. This is to make testing environments modular and easy to implement.
 Fixtures are the technical equivalent of setting up a lab with equipment, and after the test is concluded, dismantling projects and putting everything away.
+
+##Question 3) Pytest Features used
+- @pytest.mark.parametrize
+ - Used to test parsePrice and formatCurrency
+- fixtures
+ - Used to define a customTaxRate used in add_tax
