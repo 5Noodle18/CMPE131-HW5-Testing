@@ -1,5 +1,9 @@
 # Homework 
 - Name: Bryan D. Morales Sosa
+- STUDENT NOTE (PLEASE README): High Pass requirements say for all tests pass without errors....
+but isn't the point of tests to catch errors? If I don't write tests that catch errors, I'm neglecting bad inputs, logic errors, etc.
+Did the assignment want me to *patch* the source code to make my tests pass? Or write... pass-only tests?
+I kept my failing unit tests on purpose, to show how the pricing.py functions have errors. (7 failed, 17 passed in the end). 
 ## Question 1) Define the following: Unit, integration and regression tests. When you would use each?
 - **Unit test**: A test that aims to evaluate a singular, arbitrarily-defined unit of code (like a method function).
   - *When to Use*: When you create a helper method for a data type, like checkout() for a ShoppingCart Object. You would want to check if the shopping cart empties and balance withdrawn from a user.
